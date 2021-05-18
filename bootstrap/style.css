@@ -1,0 +1,15 @@
+.row > div
+{
+     border: 1px solid #ccc;
+}
+
+body
+{
+    background: url(./projekt.jpg);
+}
+
+
+
+h1 {
+    font-size: 100px;
+}

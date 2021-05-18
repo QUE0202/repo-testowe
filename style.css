@@ -1,0 +1,67 @@
+#contener {
+    float: left;
+    width: 550px;
+    height: 370px;
+    text-align: center;
+}
+
+#gildia {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#Drewno {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#metal {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#iedzenie {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+#kont {
+    float: right;
+}
+
+#level {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+#nick {
+    width: 200px;
+    height: 200px;
+}
+
+#wioska {
+    float: left;
+    border: 5px solid brown;
+}
+
+#button
+{
+background-color: #4CAF50;/*Green*/
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+body
+{
+    background-image: url(bootstrap/projekt.jpg);
+}
