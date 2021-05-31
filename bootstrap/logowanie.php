@@ -34,7 +34,7 @@
             }
             else
             {
-                echo "<p>Nieprawidłowy Login lub Hasło!</p>";
+                echo "<p>Nieprawidłowy Login lub Hasło!";
             }
         }
 

@@ -3,13 +3,24 @@
      border: 1px solid #ccc;
 }
 
-body
-{
-    background: url(./projekt.jpg);
+body{
+    background-image: url(./projekt.jpg);
 }
 
-
-
 h1 {
-    font-size: 100px;
+    margin:0;
+    padding:0;
+    font-size: 65px;
+    font-family: impact;
+    font-weight:normal;
+    color: red;
+    }
+
+h1 :hover{
+    margin: 0;
+    padding: o;
+    font-size: 65px;
+    font-family: inherit;
+    font-weight: normal;
+    color: blue;
 }

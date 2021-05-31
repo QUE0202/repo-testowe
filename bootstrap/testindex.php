@@ -38,11 +38,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gra</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="stylebutton.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 <body>
+    <h1><center>MainMenu</center></h1>
 <?php
 	//Przykładowa składnia połączenia z bazą danych dla PHP i MySQL.
 	
@@ -61,15 +62,15 @@
 ?>
 
  
-
-<div class="dropdown">
+<div class="contener" style=" float: right; margin-right: 50px; margin-top: 0px; ">
+<div class="dropdown" role="group" aria-label="Basic example" >
   <button style="border-width: 10px; border-style: double; border-color: rgb(24, 11, 0); margin-left: 50px; margin-top: 50px;" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropbtn">Gracz</button>
   <div class="dropdown-content">
     <a href="#">Nick:</a>
     <a href="#">Konto:</a>
     <a href="#">Gildia:</a>
     <a href="#">Level:</a>
-    <a href="#">WYLOGUJ</a>
+    <a href="./logowanie.php">WYLOGUJ</a>
   </div>
 </div> 
 
@@ -77,23 +78,23 @@
         
         
 
-<div class="contener" style=" float: right; margin-right: 50px; margin-top: 50px; ">
+<div class="contener" style=" float: right; margin-right: 50px; margin-top: 0px; ">
 <div class="dropdown" role="group" aria-label="Basic example" >
 <button style="border-width: 10px; border-style: double; border-color: rgb(24, 11, 0); margin-left: 50px; margin-top: 50px;" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropbtn">Magazyn</button>
 <div class="dropdown-content">
-    <a href="#">Woda:</a>
-    <a href="#">Medykamenty:</a>
-    <a href="#">Mięso:</a>
-    <a href="#">Benzyna:</a>
-    <a href="#">Uran:</a>
-    <a href="#">Części:</a>
+    <a href="./woda.php">Woda:</a>
+    <a href="./medykamenty.php">Medykamenty:</a>
+    <a href="mieso.php">Mięso:</a>
+    <a href="benzyna.php">Benzyna:</a>
+    <a href="uran.php">Uran:</a>
+    <a href="czesci.php">Części:</a>
   </div>
 </div> 
 
 
 
 
-<div class="contener" style=" float: right; margin-right: 50px; margin-top: 50px; ">
+<div class="contener" style=" float: right; margin-right: 50px; margin-top: 0px; ">
 <div class="dropdown" role="group" aria-label="Basic example" >
 <button style="border-width: 10px; border-style: double; border-color: rgb(24, 11, 0); margin-left: 50px; margin-top: 50px;" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropbtn">Budynki</button>
 <div class="dropdown-content">
@@ -105,8 +106,11 @@
     <a href="./zlomowisko.php">Złomowisko:</a>
   </div>
 </div> 
+<div class="pwrt">
 
+</div>
 <br>
+
 
 <div class="collapse" id="collapseExample3">
 <div class="card card-body">
@@ -168,13 +172,6 @@
         </div>
 </div>
 </div>
-
-    
-    
-    
-</header>
-
-
   <img src="plemiona1.png" alt="wioska" style=" margin-left: auto; margin-right: auto; margin-top: 100px; border-width: 10px; border-style: double; border-color: rgb(24, 11, 0);">
 
     
